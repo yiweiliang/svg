@@ -12,8 +12,8 @@
 
 .st0{
 -webkit-animation-name: move;
-    -webkit-animation-duration: 2000ms;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3500ms;
+    -webkit-animation-iteration-count: once;
     -webkit-animation-timing-function: linear;
 	
 }
@@ -23,13 +23,13 @@
     
 
     -webkit-animation-name: spin;
-    -webkit-animation-duration: 2000ms;
+    -webkit-animation-duration: 2500ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 
    
     animation-name: spin;
-    animation-duration: 2000ms;
+    animation-duration: 2500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -37,9 +37,9 @@
         
              0%  { -webkit-transform: translateY(0px)
                ;opacity:0; }
-	20%  { -webkit-transform:  translateY(20px);opacity:1;}
-	40%  { -webkit-transform:  translateY(-30px) opacity:1; }
-	60%  { -webkit-transform:   translateY(-80px)opacity:1; }
+	20%  { -webkit-transform:  translateY(50px);opacity:1;}
+	40%  { -webkit-transform:  translateY(0px) opacity0; }
+	60%  { -webkit-transform:   translateY(-30px)opacity:1; }
 	
 	
 	
